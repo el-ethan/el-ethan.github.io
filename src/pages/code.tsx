@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { css } from "@emotion/core"
 
 import { Column, Row } from "../components/Containers/Containers"
-import CodeBubble from "../components/CodeBubble"
+import CodeBubble from "../components/ImageBubble/CodeBubble"
 
 const CodePage = () => (
     <Column>

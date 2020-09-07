@@ -1,11 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import {
-    Column,
-    Row,
-} from "../components/Containers/Containers"
-import PlayBubble from "../components/PlayBubble"
+import { Column, Row } from "../components/Containers/Containers"
+import PlayBubble from "../components/ImageBubble/PlayBubble"
 
 const PlayPage = () => (
     <Column>
