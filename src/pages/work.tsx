@@ -1,10 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import {
-    Column,
-    Row,
-} from "../components/Containers/Containers"
+import { Column, Row } from "../components/Containers/Containers"
 import WorkBubble from "../components/ImageBubble/WorkBubble"
 
 const WorkPage = () => (
