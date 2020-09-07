@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
-import { ImageBubble } from "../components/ImageBubble/ImageBubble"
+import { ImageBubble } from "./ImageBubble"
 
 const CodeBubble = () => {
     const data = useStaticQuery(graphql`
