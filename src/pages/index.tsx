@@ -2,9 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { Column, Row } from "../components/Containers/Containers"
-import WorkBubble from "../components/ImageBubble/WorkBubble"
-import PlayBubble from "../components/ImageBubble/PlayBubble"
-import CodeBubble from "../components/ImageBubble/CodeBubble"
+import WorkBubble from "../components/Bubble/WorkBubble"
+import PlayBubble from "../components/Bubble/PlayBubble"
+import CodeBubble from "../components/Bubble/CodeBubble"
 
 const IndexPage = ({ data }) => (
     <Column>
