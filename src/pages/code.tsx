@@ -1,22 +1,24 @@
 import React from "react"
 import { Link } from "gatsby"
+import { css } from "@emotion/core"
 
-import { ImageBubble } from "../components/ImageBubble/ImageBubble"
-import {
-    CenteredColumn,
-    CenteredRow,
-} from "../components/CenteredContainer/CenteredContainer"
+import { Column, Row } from "../components/Containers/Containers"
+import CodeBubble from "../components/CodeBubble"
 
 const CodePage = () => (
-    <CenteredColumn>
-        <CenteredRow></CenteredRow>
-        <CenteredRow>
+    <Column>
+        <Row></Row>
+        <Row
+            css={css`
+                flex-flow: flex-end;
+            `}
+        >
             <Link to="/">
-                <ImageBubble></ImageBubble>
+                <CodeBubble></CodeBubble>
             </Link>
-        </CenteredRow>
-        <CenteredRow></CenteredRow>
-    </CenteredColumn>
+        </Row>
+        <Row></Row>
+    </Column>
 )
 
 export default CodePage

@@ -1,22 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { ImageBubble } from "../components/ImageBubble/ImageBubble"
 import {
-    CenteredColumn,
-    CenteredRow,
-} from "../components/CenteredContainer/CenteredContainer"
+    Column,
+    Row,
+} from "../components/Containers/Containers"
+import WorkBubble from "../components/ImageBubble/WorkBubble"
 
 const WorkPage = () => (
-    <CenteredColumn>
-        <CenteredRow></CenteredRow>
-        <CenteredRow>
+    <Column>
+        <Row></Row>
+        <Row>
             <Link to="/">
-                <ImageBubble></ImageBubble>
+                <WorkBubble></WorkBubble>
             </Link>
-        </CenteredRow>
-        <CenteredRow></CenteredRow>
-    </CenteredColumn>
+        </Row>
+        <Row></Row>
+    </Column>
 )
 
 export default WorkPage

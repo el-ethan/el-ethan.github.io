@@ -1,31 +1,28 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
 import { ImageBubble } from "../components/ImageBubble/ImageBubble"
-import {
-  CenteredColumn,
-  CenteredRow,
-} from "../components/CenteredContainer/CenteredContainer"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import { Column, Row } from "../components/Containers/Containers"
+import WorkBubble from "../components/ImageBubble/WorkBubble"
+import PlayBubble from "../components/PlayBubble"
+import CodeBubble from "../components/CodeBubble"
 
-const IndexPage = () => (
-  <CenteredColumn>
-    <CenteredRow></CenteredRow>
-    <CenteredRow>
-      <Link to="/work">
-        <ImageBubble></ImageBubble>
-      </Link>
-      <Link to="/play">
-        <ImageBubble></ImageBubble>
-      </Link>
-      <Link to="/code">
-        <ImageBubble></ImageBubble>
-      </Link>
-    </CenteredRow>
-    <CenteredRow></CenteredRow>
-  </CenteredColumn>
+const IndexPage = ({ data }) => (
+    <Column>
+        <Row></Row>
+        <Row>
+            <Link to="/work">
+                <WorkBubble></WorkBubble>
+            </Link>
+            <Link to="/play">
+                <PlayBubble></PlayBubble>
+            </Link>
+            <Link to="/code">
+                <CodeBubble></CodeBubble>
+            </Link>
+        </Row>
+        <Row></Row>
+    </Column>
 )
 
 export default IndexPage
