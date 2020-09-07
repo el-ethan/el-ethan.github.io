@@ -1,11 +1,11 @@
 import React, { FunctionComponent } from "react"
 import { float } from "./ImageBubble.module.css"
-import Img from "gatsby-image"
+import Img, { FluidObject } from "gatsby-image"
 
-interface LinkBubbleProps {
-    image: any
+interface ImageBubbleProps {
+    image: FluidObject
 }
 
-export const ImageBubble: FunctionComponent<LinkBubbleProps> = ({ image }) => {
+export const ImageBubble: FunctionComponent<ImageBubbleProps> = ({ image }) => {
     return <Img className={float} fluid={image}></Img>
 }
