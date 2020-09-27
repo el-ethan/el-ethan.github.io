@@ -1,21 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
+import PageTransition from "gatsby-plugin-page-transitions"
 
 import { Column, Row } from "../components/Containers/Containers"
 import PlayBubble from "../components/Bubble/PlayBubble"
-import EmojiBubble from "../components/Bubble/EmojiBubble"
+import IconBubble from "../components/Bubble/IconBubble"
 
 const PlayPage = () => (
     <Column>
+        <Row></Row>
         <Row>
-            <EmojiBubble emoji="books"></EmojiBubble>
-        </Row>
-        <Row>
-            <EmojiBubble emoji="baseball"></EmojiBubble>
+            <IconBubble icon="instagram"></IconBubble>
             <Link to="/">
                 <PlayBubble></PlayBubble>
             </Link>
-            <EmojiBubble emoji="coffee"></EmojiBubble>
+            <IconBubble icon="goodreads"></IconBubble>
         </Row>
         <Row></Row>
     </Column>
