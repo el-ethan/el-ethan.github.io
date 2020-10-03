@@ -15,7 +15,14 @@
     }
 }
 
-@keyframes go-right {
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .float {
@@ -30,6 +37,7 @@
 }
 
 .bubble svg {
+    animation: appear 3s;
     font-size: 300px;
     color: #ffcb6b;
 }

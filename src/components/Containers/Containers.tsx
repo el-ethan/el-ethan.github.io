@@ -1,5 +1,5 @@
-import React, { FunctionComponent } from "react"
-import { column, row } from "./Containers.module.css"
+import React, { FunctionComponent } from 'react'
+import { column, row } from './Containers.module.css'
 
 export const Column: FunctionComponent = ({ children }) => {
     return <div className={column}>{children}</div>

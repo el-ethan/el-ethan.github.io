@@ -1,5 +1,5 @@
-import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import React, { useEffect } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faGithub,
     faStackOverflow,
@@ -7,9 +7,11 @@ import {
     faGoodreads,
     faLinkedin,
     IconDefinition,
-} from "@fortawesome/free-brands-svg-icons"
+} from '@fortawesome/free-brands-svg-icons'
 
-import { bubble } from "./Bubble.module.css"
+import anime from 'animejs/lib/anime.es.js'
+
+import { bubble } from './Bubble.module.css'
 
 interface IconBubbleConfig {
     icon: IconDefinition
@@ -17,12 +19,12 @@ interface IconBubbleConfig {
 }
 
 const IconBubbleConfigs = {
-    github: { icon: faGithub, link: "https://github.com/el-ethan" },
-    linkedin: { icon: faLinkedin, link: "https://www.linkedin.com/in/ethan-e-skinner/" },
-    soWork: { icon: faStackOverflow, link: "https://stackoverflow.com/story/eskinner" },
-    stackoverflow: { icon: faStackOverflow, link: "https://stackoverflow.com/users/3642398/elethan?tab=profile" },
-    instagram: { icon: faInstagram, link: "https://www.instagram.com/ethans_cup/" },
-    goodreads: { icon: faGoodreads, link: "https://www.goodreads.com/user/show/75031232-ethan" },
+    github: { icon: faGithub, link: 'https://github.com/el-ethan' },
+    linkedin: { icon: faLinkedin, link: 'https://www.linkedin.com/in/ethan-e-skinner/' },
+    soWork: { icon: faStackOverflow, link: 'https://stackoverflow.com/story/eskinner' },
+    stackoverflow: { icon: faStackOverflow, link: 'https://stackoverflow.com/users/3642398/elethan?tab=profile' },
+    instagram: { icon: faInstagram, link: 'https://www.instagram.com/ethans_cup/' },
+    goodreads: { icon: faGoodreads, link: 'https://www.goodreads.com/user/show/75031232-ethan' },
 }
 
 interface IconBubbleProps {

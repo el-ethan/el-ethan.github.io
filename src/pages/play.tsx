@@ -1,10 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
-import PageTransition from "gatsby-plugin-page-transitions"
+import React from 'react'
+import { Link } from 'gatsby'
 
-import { Column, Row } from "../components/Containers/Containers"
-import PlayBubble from "../components/Bubble/PlayBubble"
-import IconBubble from "../components/Bubble/IconBubble"
+import { Column, Row } from '../components/Containers/Containers'
+import PlayBubble from '../components/Bubble/PlayBubble'
+import IconBubble from '../components/Bubble/IconBubble'
 
 const PlayPage = () => (
     <Column>
