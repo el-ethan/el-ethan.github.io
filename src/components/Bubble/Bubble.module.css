@@ -28,7 +28,6 @@
 .float {
     transition: all 1s ease;
     animation: float 6s ease-in-out infinite;
-    cursor: pointer;
 }
 
 .bubble {
