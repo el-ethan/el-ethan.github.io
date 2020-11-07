@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 
-import { Column, Row } from "../components/Containers/Containers"
-import IconBubble from "../components/Bubble/IconBubble"
-import BackBubble from "../components/Bubble/BackBubble"
-import WorkBubble from "../components/Bubble/WorkBubble"
+import { Column, Row } from '../components/Containers/Containers'
+import IconBubble from '../components/Bubble/IconBubble'
+import BackBubble from '../components/Bubble/BackBubble'
+import WorkBubble from '../components/Bubble/WorkBubble'
 
-import { Link } from "gatsby"
+import { Link } from 'gatsby'
 
 const WorkPage = () => (
     <Column>
@@ -13,6 +13,7 @@ const WorkPage = () => (
         <Row>
             <Link to="/">
                 <WorkBubble></WorkBubble>
+                <span className="hand">👉</span>
             </Link>
             <IconBubble icon="linkedin"></IconBubble>
             <IconBubble icon="soWork"></IconBubble>

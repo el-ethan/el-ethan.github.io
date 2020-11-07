@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons"
 
-import { bubble } from "./Bubble.module.css"
+import { bubble, float } from "./Bubble.module.css"
 
 const BackBubble = () => {
     return (

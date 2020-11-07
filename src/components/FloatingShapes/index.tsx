@@ -7,11 +7,20 @@ const defaultSize = '30px'
 
 function getDefaultStyles() {
     return css`
+        @keyframes onward {
+            to {
+                left: 50%;
+                right: 50%;
+                top: 50%;
+            }
+        }
         position: absolute;
         left: ${getRandomNumber()}%;
         top: ${getRandomNumber()}%;
         right: ${getRandomNumber()}%;
         bottom: ${getRandomNumber()}%;
+        animation: ${getRandomNumber()}s onward;
+        opacity: 0.5;
     `
 }
 
@@ -72,5 +81,24 @@ export function Squiggle() {
         >
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
+    )
+}
+
+export function AllTheShapes() {
+    const twentyFiveTimes = [...Array(50).keys()]
+
+    return (
+        <div>
+            {twentyFiveTimes.map(_ => {
+                return (
+                    <>
+                        <Triangle />
+                        <Square />
+                        <Circle />
+                        <Squiggle />
+                    </>
+                )
+            })}
+        </div>
     )
 }
