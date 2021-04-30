@@ -4,10 +4,13 @@ import { Link } from 'gatsby'
 import { Column, Row } from '../components/Containers/Containers'
 import CodeBubble from '../components/Bubble/CodeBubble'
 import IconBubble from '../components/Bubble/IconBubble'
+import SEO from '../components/seo'
+
 
 const IndexPage = ({ data }) => {
     return (
         <>
+        <SEO title="Ethan Skinner"/>
             <Column>
                 <Row>
                 </Row>
