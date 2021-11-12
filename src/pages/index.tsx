@@ -20,7 +20,6 @@ const IndexPage = ({ data }) => {
                 <Row>
                     <IconBubble icon="github"></IconBubble>
                     <IconBubble icon="linkedin"></IconBubble>
-                    <IconBubble icon="instagram"></IconBubble>
                     <IconBubble icon="goodreads"></IconBubble>
                     <IconBubble icon="stackoverflow"></IconBubble>
                 </Row>
