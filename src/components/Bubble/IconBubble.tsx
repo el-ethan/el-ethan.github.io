@@ -42,7 +42,7 @@ const IconBubble = ({ icon }: IconBubbleProps) => {
                 color: ${config.color}
             }
         `}>
-            <a className={bubble} href={config.link} target="_blank">
+            <a className={bubble} href={config.link} aria-label={`Link to Ethan's ${icon}`} target="_blank">
                 {<FontAwesomeIcon icon={config.icon}></FontAwesomeIcon>}
             </a>
         </div>
