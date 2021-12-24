@@ -24,7 +24,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `💻`,
+                name: `Ethan Skinner`,
                 short_name: `Ethan`,
                 start_url: `/`,
                 background_color: `#292d3e`,
