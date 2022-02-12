@@ -44,7 +44,6 @@
 .bubble svg {
     animation: appear 10s;
     font-size: 50px;
-    color: #ffcb6b;
 }
 
 .emojiBubble {
@@ -58,4 +57,8 @@ a.bubble {
 
 .round {
     border-radius: 50%;
+}
+
+.iconBubbleContainer {
+    padding-top: 4em;
 }

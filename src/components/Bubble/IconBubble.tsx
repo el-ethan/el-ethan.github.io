@@ -1,5 +1,4 @@
 import React from 'react'
-import {css} from 'emotion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faGithub,
@@ -10,7 +9,7 @@ import {
     IconDefinition,
 } from '@fortawesome/free-brands-svg-icons'
 
-import { bubble } from './Bubble.module.css'
+import { bubble, iconBubbleContainer } from './Bubble.module.css'
 
 
 interface IconBubbleConfig {
@@ -36,14 +35,9 @@ const IconBubble = ({ icon }: IconBubbleProps) => {
     const config: IconBubbleConfig = IconBubbleConfigs[icon]
 
     return (
-        <div className={css`
-            padding-top: 4em;
-            svg {
-                color: ${config.color}
-            }
-        `}>
+        <div className={iconBubbleContainer}>
             <a className={bubble} href={config.link} aria-label={`Link to Ethan's ${icon}`} target="_blank">
-                {<FontAwesomeIcon icon={config.icon}></FontAwesomeIcon>}
+                {<FontAwesomeIcon color={config.color} icon={config.icon}></FontAwesomeIcon>}
             </a>
         </div>
     )
