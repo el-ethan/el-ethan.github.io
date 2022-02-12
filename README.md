@@ -1,1 +1,1 @@
-ethanskinner.com
+https://ethanskinner.com
