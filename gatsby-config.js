@@ -1,4 +1,7 @@
 module.exports = {
+    flags: {
+        DEV_SSR: false,
+    },
     siteMetadata: {
         title: `Ethan Skinner`,
         description: `divs and spans by Ethan Skinner`,
