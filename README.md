@@ -1,1 +1,1 @@
-https://el-ethan.github.io/
+ethanskinner.com
