@@ -1,14 +1,10 @@
-import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from 'react'
+import { Column, Row } from '../components/Containers/Containers'
 
 const NotFoundPage = () => (
-  <Layout>
-    <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>🤷‍♂️</p>
-  </Layout>
+    <Column>
+        <p style={{ fontSize: '5em' }}>🤷‍♂️</p>
+    </Column>
 )
 
 export default NotFoundPage
