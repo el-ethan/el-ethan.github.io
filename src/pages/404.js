@@ -1,5 +1,5 @@
 import React from 'react'
-import { Column, Row } from '../components/Containers/Containers'
+import { Column } from '../components/Containers/Containers'
 
 const NotFoundPage = () => (
     <Column>
