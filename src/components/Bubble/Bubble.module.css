@@ -65,3 +65,12 @@ a.bubble {
 .iconBubbleContainer {
     padding-top: 4em;
 }
+
+@media (prefers-reduced-motion) {
+    .float,
+    .bubble svg,
+    .bubble svg:hover {
+        animation: none;
+        transform: none;
+    }
+}
