@@ -3,10 +3,10 @@ import { graphql, useStaticQuery } from "gatsby"
 
 import { ImageBubble } from "./ImageBubble"
 
-const CodeBubble = () => {
+const ProfilePhotoBubble = () => {
     const data = useStaticQuery(graphql`
         query {
-            file(relativePath: { eq: "es-code.jpg" }) {
+            file(relativePath: { eq: "confetti.jpg" }) {
                 childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid
@@ -18,4 +18,4 @@ const CodeBubble = () => {
     return <ImageBubble image={data.file.childImageSharp.fluid}></ImageBubble>
 }
 
-export default CodeBubble
+export default ProfilePhotoBubble

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'gatsby'
 
 import { Column, Row } from '../components/Containers/Containers'
-import CodeBubble from '../components/Bubble/CodeBubble'
+import ProfilePhotoBubble from '../components/Bubble/ProfilePhotoBubble'
 import IconBubble from '../components/Bubble/IconBubble'
 import SEO from '../components/seo'
 
@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => {
                 <Row>
                 </Row>
                 <Row>
-                    <CodeBubble></CodeBubble>
+                    <ProfilePhotoBubble></ProfilePhotoBubble>
                 </Row>
                 <Row>
                     <IconBubble icon="github"></IconBubble>
