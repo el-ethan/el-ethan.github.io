@@ -33,7 +33,7 @@ const IconBubble = ({ icon }: IconBubbleProps) => {
 
     return (
         <div className={iconBubbleContainer}>
-            <a className={bubble} href={config.link} aria-label={`Link to Ethan's ${icon}`} target="_blank">
+            <a className={bubble} href={config.link} aria-label={`Link to Ethan's ${icon}`} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon color={config.color} icon={config.icon}></FontAwesomeIcon>
             </a>
         </div>
