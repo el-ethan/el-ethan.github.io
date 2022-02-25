@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react'
-import { Link } from 'gatsby'
+import React from 'react'
 
 import { Column, Row } from '../components/Containers/Containers'
 import ProfilePhotoBubble from '../components/Bubble/ProfilePhotoBubble'
@@ -7,7 +6,7 @@ import IconBubble from '../components/Bubble/IconBubble'
 import SEO from '../components/seo'
 
 
-const IndexPage = ({ data }) => {
+const ProfilePage = ({ data }) => {
     return (
         <>
         <SEO title="Ethan Skinner"/>
@@ -28,4 +27,4 @@ const IndexPage = ({ data }) => {
     )
 }
 
-export default IndexPage
+export default ProfilePage
