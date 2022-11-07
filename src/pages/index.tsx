@@ -5,14 +5,12 @@ import ProfilePhotoBubble from '../components/Bubble/ProfilePhotoBubble'
 import IconBubble from '../components/Bubble/IconBubble'
 import SEO from '../components/seo'
 
-
 const ProfilePage = ({ data }) => {
     return (
         <>
-        <SEO title="Ethan Skinner"/>
+            <SEO title="Ethan Skinner" />
             <Column>
-                <Row>
-                </Row>
+                <Row></Row>
                 <Row>
                     <ProfilePhotoBubble></ProfilePhotoBubble>
                 </Row>

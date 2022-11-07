@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    color: #c1b8ef;
+    flex-flow: column;
+    font-size: 1.5em;
+    font-family: 'Inter var', sans-serif;
+    padding: 5% 20%;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    color: #f9d4b1;
+}
+
+.headerLink {
+    text-decoration: none;
+    color: #f9d4b1;
+}
+
+.headerLinkIcon {
+    opacity: 0;
+}
+
+.headerLinkIcon:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: #f09343;
+}
+
+.firstLetter {
+    font-size: 1.6em;
+}
