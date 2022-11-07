@@ -1,8 +1,6 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink } from '@fortawesome/free-solid-svg-icons'
 
-import { container, headerLinkIcon, headerLink, firstLetter } from './Essay.module.css'
+import { container, firstLetter, headerLink } from './Essay.module.css'
 
 export const buildSectionId = headerText => {
     const textWithoutSpaces = headerText.split(' ').join('-')
@@ -17,7 +15,7 @@ function SectionWithHeader({ headerText, children }) {
         <section id={id}>
             <h2>
                 <a href={`#${id}`} className={headerLink}>
-                    {headerText} <FontAwesomeIcon icon={faLink} className={headerLinkIcon} />
+                    {headerText}
                 </a>
             </h2>
             {children}

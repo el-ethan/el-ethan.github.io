@@ -16,14 +16,13 @@
     color: #f9d4b1;
 }
 
-.headerLinkIcon {
-    opacity: 0;
+.headerLink:hover {
+    text-decoration: underline;
 }
 
-.headerLinkIcon:hover {
-    opacity: 1;
-    cursor: pointer;
+.headerLink:hover::after {
     color: #f09343;
+    content: ' #';
 }
 
 .firstLetter {
