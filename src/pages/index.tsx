@@ -21,6 +21,7 @@ const ProfilePage = ({ data }) => {
                     <IconBubble icon="linkedin"></IconBubble>
                     <IconBubble icon="goodreads"></IconBubble>
                     <IconBubble icon="stackoverflow"></IconBubble>
+                    <IconBubble icon="soundcloud"></IconBubble>
                 </Row>
             </Column>
         </>

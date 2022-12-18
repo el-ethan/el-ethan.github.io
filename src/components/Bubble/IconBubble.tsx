@@ -5,6 +5,7 @@ import {
     faStackOverflow,
     faGoodreads,
     faLinkedin,
+    faSoundcloud,
     IconDefinition,
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -22,6 +23,7 @@ const IconBubbleConfigs = {
     linkedin: { icon: faLinkedin, link: 'https://www.linkedin.com/in/ethan-e-skinner/', color: '#82AAFF' },
     stackoverflow: { icon: faStackOverflow, link: 'https://stackoverflow.com/users/3642398/elethan?tab=profile', color: '#f07178' },
     goodreads: { icon: faGoodreads, link: 'https://www.goodreads.com/user/show/75031232-ethan', color: '#c792ea' },
+    soundcloud: { icon: faSoundcloud, link: 'https://soundcloud.com/thousand-arms', color: '#f9d4b1'}
 }
 
 interface IconBubbleProps {
