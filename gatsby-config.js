@@ -36,7 +36,7 @@ module.exports = {
         `gatsby-plugin-offline`,
         {
             resolve: `gatsby-source-filesystem`,
-            options: {z
+            options: {
                 name: `content`,
                 path: `${__dirname}/src/guides`,
             },
