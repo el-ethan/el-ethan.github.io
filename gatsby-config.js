@@ -8,7 +8,6 @@ module.exports = {
         author: `el-ethan`,
     },
     plugins: [
-        `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
