@@ -23,11 +23,14 @@ const ProfilePage = ({ data }) => {
                     <ProfilePhotoBubble></ProfilePhotoBubble>
                 </Row>
                 <Row>
-                    <IconBubble icon="github"></IconBubble>
-                    <IconBubble icon="linkedin"></IconBubble>
-                    <IconBubble icon="goodreads"></IconBubble>
-                    <IconBubble icon="stackoverflow"></IconBubble>
-                    <IconBubble icon="soundcloud"></IconBubble>
+                    <IconBubble label="github"></IconBubble>
+                    <IconBubble label="linkedin"></IconBubble>
+                    <IconBubble label="stackoverflow"></IconBubble>
+                    <IconBubble label="goodreads"></IconBubble>
+                    <IconBubble label="spotify"></IconBubble>    
+                    <IconBubble label="instagram"></IconBubble>    
+                    <IconBubble label="soundcloud"></IconBubble>    
+
                 </Row>
             </Column>
         </>
