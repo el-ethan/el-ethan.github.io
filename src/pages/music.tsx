@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Column, Row } from '../components/Containers/Containers'
-import ProfilePhotoBubble from '../components/Bubble/ProfilePhotoBubble'
+import MusicPhotoBubble from '../components/Bubble/MusicPhotoBubble'
 import IconBubble from '../components/Bubble/IconBubble'
 
 export const Head = () => {
@@ -13,22 +13,22 @@ export const Head = () => {
     )
 }
 
-const ProfilePage = ({ data }) => {
+const MusicPage = () => {
     return (
         <Column>
             <Row>
             </Row>
             <Row>
-                <ProfilePhotoBubble></ProfilePhotoBubble>
+                <MusicPhotoBubble />
             </Row>
             <Row>
-                <IconBubble label="github"></IconBubble>
-                <IconBubble label="linkedin"></IconBubble>
-                <IconBubble label="stackoverflow"></IconBubble>
-                {/* <IconBubble label="goodreads"></IconBubble> */}
+                <IconBubble label="spotify"></IconBubble>    
+                <IconBubble label="instagram"></IconBubble>    
+                <IconBubble label="soundcloud"></IconBubble>    
+
             </Row>
         </Column>
     )
 }
 
-export default ProfilePage
+export default MusicPage
