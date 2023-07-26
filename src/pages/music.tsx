@@ -24,8 +24,8 @@ const MusicPage = () => {
             <Row>
                 <IconBubble label="spotify"></IconBubble>    
                 <IconBubble label="instagram"></IconBubble>    
-                <IconBubble label="soundcloud"></IconBubble>    
-
+                <IconBubble label="soundcloud"></IconBubble>
+                <IconBubble label="bandcamp"></IconBubble>
             </Row>
         </Column>
     )

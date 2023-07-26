@@ -9,6 +9,7 @@ import {
     IconDefinition,
     faSoundcloud,
     faInstagram,
+    faBandcamp,
 } from '@fortawesome/free-brands-svg-icons'
 
 import { bubble, iconBubbleContainer } from './Bubble.module.css'
@@ -27,7 +28,8 @@ const IconBubbleConfigs = {
     goodreads: { icon: faGoodreads, link: 'https://www.goodreads.com/user/show/75031232-ethan', color: '#c792ea' },
     spotify: { icon: faSpotify, link: 'https://open.spotify.com/artist/2ax0J2OsLpsH9kgAT6eqng', color: '#1ED760'},
     soundcloud: { icon: faSoundcloud, link: 'https://soundcloud.com/thousand-arms', color: '#f50'},
-    instagram: { icon: faInstagram, link: 'https://www.instagram.com/thousand_armed_kannon/', color: '#FEDA75'}
+    instagram: { icon: faInstagram, link: 'https://www.instagram.com/thousand_armed_kannon/', color: '#FEDA75'},
+    bandcamp: { icon: faBandcamp, link: 'https://thousand-armed-kannon.bandcamp.com/', color: '#4C9EBF'}
 
 }
 
